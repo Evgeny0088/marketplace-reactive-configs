@@ -1,0 +1,2 @@
+routing:
+	spring-profile: dev

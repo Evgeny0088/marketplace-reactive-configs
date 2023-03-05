@@ -1,3 +1,0 @@
-spring.data.mongodb:
-    uri: mongodb://${mongodb.username}:${mongodb.password}@${mongodb.host}:${mongodb.port}/${mongodb.database}
-    authentication-database: test
