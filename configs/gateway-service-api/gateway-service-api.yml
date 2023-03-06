@@ -13,15 +13,14 @@ spring:
 com.marketplace:
   gateway:
     serverUrl: http://${SERVICE_HOST}
-    hostPrefix: local
     port: 8080
     auth:
-      marketplace-name: marketplace-app
-      marketplace-pass: marketplace-pass
+      marketplace-name: ${PROJECT_NAME}
+      marketplace-pass: ${PROJECT_PASS}
 
 # jwt token
 jwt:
-  secret: secret
+  secret: ${SECRET}
   issuer: https://authorization-server.com
   token-expires-at: 480_000
 

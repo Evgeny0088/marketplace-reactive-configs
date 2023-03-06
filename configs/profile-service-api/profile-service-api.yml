@@ -41,8 +41,8 @@ mail-sender:
   protocol: smtps
   auth: true
   ssl-enable: true
-  username: marketplace.server0088@gmail.com
-  password: enualadqujyyfmwm
+  username: ${EMAIL}
+  password: ${EMAIL_PASS}
   smtp-debug: true
 
 # open api setup
