@@ -1,2 +1,28 @@
+spring:
+  application:
+    name: auth-service-api
+  jackson:
+    serialization:
+      write_dates_as_timestamps: false
+
+routing:
+  protocol: http
+  service: ${routing.spring-profile}-profile-service-api
+  service-port: 8080
+  uri: ${routing.protocol}://${routing.service}:${routing.service-port}
+
+# open api setup
+springdoc:
+  api-docs.path: /api/v1/auth/api-docs
+  swagger-ui.path: ${springdoc.api-docs.path}/swagger-ui.html
+  writer-with-default-pretty-printer: true
+
+# jwt token
+jwt:
+  secret: ${SECRET}
+  issuer: https://authorization-server.com
+  token-expires-at: 480_000
+
+
 routing:
 	spring-profile: dev
