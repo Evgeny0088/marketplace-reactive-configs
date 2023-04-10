@@ -1,2 +1,2 @@
 routing:
-	spring-profile: dev
+  spring-profile: dev
