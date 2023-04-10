@@ -20,7 +20,7 @@ r2dbc-props:
   host: localhost
   username: ${POSTGRES_USER:usr}
   password: ${POSTGRES_PASS:usr}
-  database: ${POSTGRES_MARKETPLACE:marketplacedb}
+  database: ${POSTGRES_MARKETPLACE:marketplace}
   port: 5430
 
 # minimum time offset for profile updates
