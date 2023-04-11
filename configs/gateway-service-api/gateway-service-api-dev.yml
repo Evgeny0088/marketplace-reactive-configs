@@ -1,2 +1,4 @@
 com.marketplace:
   hostPrefix: dev
+  gateway:
+    serverUrl: http://${SERVICE_HOST_DEV}

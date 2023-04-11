@@ -1,2 +1,4 @@
 com.marketplace:
   hostPrefix: cuber
+  gateway:
+    serverUrl: http://${SERVICE_HOST_CUBER}

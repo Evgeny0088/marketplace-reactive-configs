@@ -12,7 +12,6 @@ spring:
 
 com.marketplace:
   gateway:
-    serverUrl: http://${SERVICE_HOST}
     port: 8080
     auth:
       marketplace-name: ${PROJECT_NAME}
