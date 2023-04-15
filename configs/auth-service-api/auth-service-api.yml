@@ -7,7 +7,7 @@ spring:
 
 routing:
   protocol: http
-  service: ${routing.spring-profile}-profile-service-api
+  service: profile-service-api-${routing.spring-profile}
   service-port: 8080
   uri: ${routing.protocol}://${routing.service}:${routing.service-port}
 
