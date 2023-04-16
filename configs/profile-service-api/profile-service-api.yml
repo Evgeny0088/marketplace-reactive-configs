@@ -17,10 +17,10 @@ spring:
     enabled: true
 
 r2dbc-props:
-  host: 192.168.31.252
-  username: ${POSTGRES_USER:usr}
-  password: ${POSTGRES_PASS:usr}
-  database: ${POSTGRES_DB:marketplace}
+  host: ${SERVICE_HOST_DEV}
+  username: ${POSTGRES_USER}
+  password: ${POSTGRES_PASS}
+  database: ${POSTGRES_DB}
   port: 5430
 
 # minimum time offset for profile updates
