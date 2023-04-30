@@ -1,2 +1,6 @@
 routing:
   spring-profile: dev
+
+proxy-server:
+  name: dev-marketplace.com
+

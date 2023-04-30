@@ -16,9 +16,6 @@ spring:
     password: ${spring.r2dbc.password}
     enabled: true
 
-proxy-server:
-  name: marketplace.com
-
 r2dbc-props:
   host: ${SERVICE_HOST_DEV}
   username: ${POSTGRES_USER}

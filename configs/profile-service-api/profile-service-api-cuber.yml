@@ -1,2 +1,6 @@
 routing:
   spring-profile: cuber
+
+proxy-server:
+  name: cuber-marketplace.com
+
