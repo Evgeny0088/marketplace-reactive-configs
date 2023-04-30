@@ -2,5 +2,5 @@ routing:
   spring-profile: dev
 
 proxy-server:
-  name: dev-marketplace.com
+  name: dev-marketplace.com:8000
 

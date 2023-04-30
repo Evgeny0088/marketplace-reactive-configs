@@ -2,5 +2,5 @@ routing:
   spring-profile: cuber
 
 proxy-server:
-  name: cuber-marketplace.com
+  name: cuber-marketplace.com:8000
 
