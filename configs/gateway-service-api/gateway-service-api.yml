@@ -32,7 +32,7 @@ service-road-map:
   blackListWords:
     - internal
     - admin
-    - actuator
+#    - actuator
   services:
     -   # authentication services
       alias: auth
