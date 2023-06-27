@@ -1,4 +1,4 @@
 com.marketplace:
   gateway:
-    serverUrl: http://${SERVICE_HOST_CUBER}
+    serverUrl: http://minikube
     stand: -cuber
