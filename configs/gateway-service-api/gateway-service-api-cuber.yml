@@ -1,4 +1,4 @@
 com.marketplace:
   gateway:
-    serverUrl: http://minikube
+    serverUrl: http://192.168.59.123
     stand: -cuber
