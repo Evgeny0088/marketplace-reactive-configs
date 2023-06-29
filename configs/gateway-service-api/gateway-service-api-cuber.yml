@@ -1,4 +1,4 @@
 com.marketplace:
   gateway:
-    serverUrl: http://192.168.59.123
+    serverUrl: http://${SERVICE_HOST_CUBER}
     stand: -cuber
