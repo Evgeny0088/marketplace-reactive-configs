@@ -1,6 +1,9 @@
 routing:
   spring-profile: dev
 
+r2dbc-props:
+  host: ${SERVICE_HOST_DEV}
+
 proxy-server:
   name: dev-marketplace.com:8000
 

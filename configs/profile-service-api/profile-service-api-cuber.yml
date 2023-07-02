@@ -1,6 +1,9 @@
 routing:
   spring-profile: cuber
 
+r2dbc-props:
+  host: ${SERVICE_HOST_CUBER}
+
 proxy-server:
   name: cuber-marketplace.com
 
