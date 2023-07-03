@@ -20,7 +20,6 @@ r2dbc-props:
   username: ${POSTGRES_USER}
   password: ${POSTGRES_PASS}
   database: ${POSTGRES_DB}
-  port: 5430
 
 # minimum time offset for profile updates
 profile-updates:

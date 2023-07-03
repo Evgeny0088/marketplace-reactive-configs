@@ -3,6 +3,7 @@ routing:
 
 r2dbc-props:
   host: ${SERVICE_HOST_CUBER}
+  port: 30032
 
 proxy-server:
   name: cuber-marketplace.com

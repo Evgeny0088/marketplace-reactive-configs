@@ -3,6 +3,7 @@ routing:
 
 r2dbc-props:
   host: ${SERVICE_HOST_DEV}
+  port: 5430
 
 proxy-server:
   name: dev-marketplace.com:8000
