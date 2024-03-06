@@ -23,6 +23,8 @@ spring:
     user: ${spring.r2dbc.username}
     password: ${spring.r2dbc.password}
     enabled: true
+    ignore-migration-patterns:
+    	- "*:missing"
   kafka:
     listener:
       ack-mode: manual_immediate
