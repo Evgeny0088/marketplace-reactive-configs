@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: sale-service-api
+  redis:
+    host: ${SERVICE_HOST_DEV}
+    port: 6378
+    password: ${REDIS_PASS}
+    connect-timeout: '10s'
+    client-type: lettuce
+
+routing:
+  protocol: http
+  service: item-storage-api-${routing.spring-profile}
+  service-port: 8080
+  uri: ${routing.protocol}://${routing.service}:${routing.service-port}
+
+# open api setup
+springdoc:
+  api-docs.path: /api/v1/sales/api-docs
+  swagger-ui.path: ${springdoc.api-docs.path}/swagger-ui.html

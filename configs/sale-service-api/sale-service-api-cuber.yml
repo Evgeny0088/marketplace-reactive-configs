@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: ${SERVICE_HOST_CUBER}
+
+routing:
+  spring-profile: cuber

@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: ${SERVICE_HOST_DEV}
+    
+routing:
+  spring-profile: dev
+
