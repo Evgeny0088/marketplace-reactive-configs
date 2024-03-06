@@ -44,3 +44,13 @@ service-road-map:
       name: profile-service-api
       port: 8080
       authRequired: true
+    -   # items services
+      alias: item
+      name: item-service-api
+      port: 8080
+      authRequired: true
+    -   # profile services
+      alias: sale
+      name: sale-service-api
+      port: 8080
+      authRequired: true
