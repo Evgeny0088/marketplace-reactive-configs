@@ -6,3 +6,4 @@ spring:
 r2dbc-props:
   host: ${SERVICE_HOST_CUBER}
   port: 30032
+
