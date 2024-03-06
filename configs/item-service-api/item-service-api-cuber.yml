@@ -5,4 +5,4 @@ spring:
     bootstrap-servers: ${SERVICE_HOST_CUBER}:9092
 r2dbc-props:
   host: ${SERVICE_HOST_CUBER}
-  port: 30078
+  port: 30032
