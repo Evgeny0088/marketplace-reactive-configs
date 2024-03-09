@@ -1,6 +1,6 @@
 spring:
   redis:
     host: ${SERVICE_HOST_CUBER}
-
+	port: 30078
 routing:
   spring-profile: cuber
