@@ -10,7 +10,7 @@ spring:
 
 routing:
   protocol: http
-  service: item-storage-api-${routing.spring-profile}
+  service: item-service-api-${routing.spring-profile}
   service-port: 8080
   uri: ${routing.protocol}://${routing.service}:${routing.service-port}
 
