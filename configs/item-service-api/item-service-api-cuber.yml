@@ -3,7 +3,7 @@ spring:
     host: ${SERVICE_HOST_CUBER}
     port: 30078
   kafka:
-    bootstrap-servers: ${SERVICE_HOST_CUBER}:30092
+    bootstrap-servers: kafka-service:9092
 r2dbc-props:
   host: ${SERVICE_HOST_CUBER}
   port: 30032
