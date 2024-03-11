@@ -18,3 +18,12 @@ routing:
 springdoc:
   api-docs.path: /api/v1/sales/api-docs
   swagger-ui.path: ${springdoc.api-docs.path}/swagger-ui.html
+
+# management
+management:
+  endpoint.health.probes.enabled: true
+  metrics.export.prometheus.enabled: true
+  endpoints.web.exposure.include: 'prometheus, health'
+  distribution:
+    percentiles-histogram:
+      "[http.server.requests]": true
